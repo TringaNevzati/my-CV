@@ -1,0 +1,181 @@
+body{
+    background-color: rgba(24, 142, 211, 0.781);;
+}
+*{ 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+     }
+     .container-fluid{
+     width: 100%;
+     height: 100vh;
+     background:linear-gradient(to left, rgba(0,0,0,0.5) 50%, rgba(0, 0, 0, 0.5) 50%) ;
+}
+.container{
+     width: 100%;
+     height: 80px;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0px 25px;
+     cursor: pointer;
+      /* border: solid;  */
+}
+.container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container ul li a{
+    font-family: arial;
+    color: white;
+    margin-right: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+    list-style: none;
+}
+.hero{
+    height: 600px;
+    background-image: url(https://softwareauggest-blogimages.s3.ca-central-1.amazonaws.com/blog/wp-content/uploads/2022/02/02110820/Ultimate-Guide-to-Custom-Web-Development-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1{
+    color:blue;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.hero h3{
+    /* width: 70%; */
+    text-transform: uppercase;
+    color: blue;
+    font-size: 20px;
+}
+.hero p{
+    color: blue;
+    font-size: 15px;  
+}
+.hero .btn{
+width: 150px;
+height: 40px;
+border-radius: 10px;
+font-size: 18px;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #fff;
+transition: 0.5s;
+}
+.hero .btn:hover{
+    background-color:blue;
+     color: #fff;
+}
+.container ul li a{
+    width: 150px;
+height: 40px;
+border-radius: 10px;
+font-size: 18px;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(24, 142, 211, 0.781);
+transition: 0.5s;
+}
+.container ul li a:hover{
+background-color: blue;
+color:white;
+}
+.info{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid;
+}
+.desc{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.desc h1{
+    font-size: 50px;
+    color: black;
+    letter-spacing: 30px;
+    font-weight: 200px;
+}
+.process h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 200px;
+}
+.services .box{
+    width: 30%;
+    height: 500px;
+    background-color: white;
+}
+.box img{
+    width: 100%;
+    height: 300px;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+.box h3,p,a{
+    padding: 0px 10px;
+    color: #3b3b3b;
+}
+.box a{
+    color: #3b3b3b;
+    text-decoration: none;
+    font-size: 17px;
+}
+.testimonials{
+    margin-top: 100px;
+    height: 400px;
+    background-color: #ffe45c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.comment{
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    width: 40%;
+    font-weight: bold;
+
+}
+.testimonials h2{
+    font-size: 50px;
+    color: white;
+}
+.testimonials img{
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+}
+.footer-menu{
+    width: 100%;
+    height: 200px;
+    background-color:aqua ;
+    border: solid;
+}
+
